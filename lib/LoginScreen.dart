@@ -42,7 +42,7 @@ class _HomePageState extends State<HomePage> {
                   setState(() {});
                 },
                 controller: emailcontroler,
-                decoration: InputDecoration(
+                decoration: const InputDecoration(
                   suffixIcon: Icon(Icons.email_sharp),
                   hintText: 'Email',
                 ),
